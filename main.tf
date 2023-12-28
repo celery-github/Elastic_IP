@@ -14,12 +14,3 @@ resource "aws_eip" "elasticip" {
 output "EIP" {
     value = aws_eip.elasticeip.public_ip
 }
-
-#how to create elastic IP address for an EC2 instance
-# Elastic IPs remain the same after re-deplying an istance unlike Public IPs
- 
-
-#terraform init
-#terraform apply
-#terraform destroy
-# option + command + S
